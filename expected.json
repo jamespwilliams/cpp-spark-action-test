@@ -1,0 +1,127 @@
+{
+  "validation": {
+    "runners": [
+      {
+        "successes": [
+          {
+            "type": "compilation",
+            "info": "Compilation succeeded",
+            "file_path": "test/resources/sample_projects/simple_maths_project_not_done/src/double.cpp"
+          },
+          {
+            "type": "compilation",
+            "info": "Compilation succeeded",
+            "file_path": "test/resources/sample_projects/simple_maths_project_not_done/src/integer.cpp"
+          }
+        ],
+        "failures": [],
+        "errors": [],
+        "runner_key": "c++:compilation"
+      }
+    ],
+    "passed": true
+  },
+  "evaluation": {
+    "runners": [
+      {
+        "successes": [
+          {
+            "test_name": "test_add",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/integer.cpp",
+            "test_type": "primary",
+            "function_tested__name": "add",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_multiply",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/integer.cpp",
+            "test_type": "primary",
+            "function_tested__name": "multiply",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_divide_round_down",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/integer.cpp",
+            "test_type": "primary",
+            "function_tested__name": "divide_round_down",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_divide_round_up",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/integer.cpp",
+            "test_type": "primary",
+            "function_tested__name": "divide_round_up",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_divide",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/integer.cpp",
+            "test_type": "primary",
+            "function_tested__name": "divide",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_add",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/double.cpp",
+            "test_type": "primary",
+            "function_tested__name": "add",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_multiply",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/double.cpp",
+            "test_type": "primary",
+            "function_tested__name": "multiply",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_divide_round_down",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/double.cpp",
+            "test_type": "primary",
+            "function_tested__name": "divide_round_down",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_divide_round_up",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/double.cpp",
+            "test_type": "primary",
+            "function_tested__name": "divide_round_up",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_divide_round_nearest",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/double.cpp",
+            "test_type": "primary",
+            "function_tested__name": "divide_round_nearest",
+            "function_tested__description": ""
+          },
+          {
+            "test_name": "test_divide",
+            "test_description": "",
+            "file_path": "simple_maths_project_not_done/src/double.cpp",
+            "test_type": "primary",
+            "function_tested__name": "divide",
+            "function_tested__description": ""
+          }
+        ],
+        "failures": [],
+        "errors": []
+      }
+    ],
+    "passed": false
+  },
+  "quality": {
+    "runners": []
+  },
+  "score": 0.0
+}

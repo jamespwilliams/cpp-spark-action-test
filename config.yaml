@@ -1,0 +1,6 @@
+files:
+  - src/double.cpp
+  - src/integer.cpp
+restricted_libraries:
+  src/double.cpp:
+    - math.h
