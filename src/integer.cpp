@@ -13,6 +13,6 @@ namespace integers {
         if (a == 0)
             return 1;
 
-        return a * factorial(n-1);
+        return a * factorial(a-1);
     }
 } // namespace integers
